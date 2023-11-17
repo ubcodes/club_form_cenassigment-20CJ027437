@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Club Form</title>
+  </head>
+  <style>
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 100%;
+    }
+    body {
+      background-color: rgb(252, 239, 222);
+    }
+    .yellow {
+      background-color: yellow;
+    }
+    .purple {
+      background-color: purple;
+    }
+    .blue {
+      background-color: blue;
+    }
+    .container{
+      width: 100%;
+      margin: 0;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .row > div {
+     height: 100vh;
+     width: 100%;
+     flex:30% ;
+     margin: 0;
+    }
+   
+    .content {
+      display: flex;
+      top: 0;
+    }
+  </style>
+  <body>
+    <div class="container">
+        <div class="row">
+          <div class="color-box yellow"></div>
+          <div class="color-box purple"></div>
+          <div class="color-box blue"></div>
+        </div>
+    </div>
+     <div class="content">
+          display flex
+        </div>
+  </body>
+</html>
